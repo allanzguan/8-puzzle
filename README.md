@@ -1,5 +1,5 @@
 # 8-puzzle
-This Java program implements various seach algorithms to solve 8-puzzle probelm.
+This Java program implements listed search algorithms to solve 8-puzzle probelm.
 
 - Breath-first search
 - Depth-first search
