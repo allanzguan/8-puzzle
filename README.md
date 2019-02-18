@@ -16,7 +16,7 @@ Board class is a state representation of a board. It contains data used to help 
 
 Board takes two arguments, the starting board and the goal board.
 
-'''
+```
 public class Board {
   public Board(int[][] b, int[][] g)            // Board constructor takes puzzle state and goal state.
   public int hamming()                          // (h1) Compute the Hamming distance for this state of the board.
@@ -32,12 +32,13 @@ public class Board {
   public boolean equals(Object o)               // This method is used for comparing two board object by comparing the board representation.
   public int hashCode()                         // This method is used for comparing two board object by comparing the board representation.
  }
- '''
+```
  
  ## Solver
  Solver class contains all the algorithm for solving the 8-puzzle.
 Takes a Board object that contains the representation of the current state and the goal state, will print out a solution with the paths it took to goal state.
 
+```
 public class Solver {
   public Solver(Board b)                        // Constructor takes a board object
   public void bfs()                             // Breath-first search
@@ -50,3 +51,4 @@ public class Solver {
   public void aStar3()                          // A*3 (Row Column out of order)
   public void printPath(Board foundGoal)        // Prints the complete path it took to solve the puzzle
  }
+ ```
