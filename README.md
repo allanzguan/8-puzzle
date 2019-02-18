@@ -1,14 +1,14 @@
 # 8-puzzle
 This Java program implements various seach algorithms to solve 8-puzzle probelm.
 
-Breath-first search
-Depth-first search
-Iterative deepening search
-Uniform-Cost search
-Best-first search
-A*1 (Hamming)
-A*2 (Mahattan)
-A*3 (Row Column out of order)
+- Breath-first search
+- Depth-first search
+- Iterative deepening search
+- Uniform-Cost search
+- Best-first search
+- A*1 (Hamming)
+- A*2 (Mahattan)
+- A*3 (Row Column out of order)
 
 
 ## Board
