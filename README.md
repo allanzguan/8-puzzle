@@ -14,7 +14,6 @@ This Java program implements various seach algorithms to solve 8-puzzle probelm.
 ## Board
 Board class is a state representation of a board. It contains data used to help with the Solver class to solve the 8 puzzle.
 
-Board takes two arguments, the starting board and the goal board.
 
 ```
 public class Board {
