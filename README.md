@@ -11,7 +11,7 @@ A*2 (Mahattan)
 A*3 (Row Column out of order)
 
 
-##Board
+## Board
 Board class is a state representation of a board. It contains data used to help with the Solver class to solve the 8 puzzle.
 
 Board takes two arguments, the starting board and the goal board.
@@ -34,7 +34,7 @@ public class Board {
  }
  '''
  
- ##Solver
+ ## Solver
  Solver class contains all the algorithm for solving the 8-puzzle.
 Takes a Board object that contains the representation of the current state and the goal state, will print out a solution with the paths it took to goal state.
 
