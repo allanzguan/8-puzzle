@@ -1,5 +1,4 @@
 # 8-puzzle
-###### CSC480 Artificial Intelligence
 This Java program implements listed search algorithms to solve 8-puzzle probelm.
 
 - Breath-first search
